@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Película Favorita</title>
+    <style>
+        body{background-color: antiquewhite}
+        h1{color: rgb(56, 80, 161)}
+        p{color: rgb(0, 0, 0);}
+        a{color:rgb(56, 80, 161)}
+        h1{text-align: center;} 
+        table{color:rgb(56, 80 ,161)}
+        table{ border: 2px solid black;
+            border-collapse: collapse; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="peliculafav.html">Película</a></li>
+            <li><a href="pinturafav.html">Pintura</a></li>
+            <li><a href="cancionfav.html">Canción</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mi Película Favorita</h1>
+    <p>*Radical* es una película mexicana basada en una historia real. Narra la vida de un maestro que llega a una escuela pública con recursos limitados en Matamoros, Tamaulipas, y transforma la vida de sus estudiantes con métodos poco convencionales. Es una historia poderosa sobre el potencial humano, la educación y la esperanza.</p>
+
+    <table border="1">
+        <tr>
+            <th>Año</th>
+            <th>Director</th>
+            <th>Género</th>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Christopher Zalla</td>
+            <td>Drama / Inspiración</td>
+        </tr>
+    </table>
+
+    <h2>Tráiler</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/X-EF3YdG2WE" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Datos Curiosos</h2>
+    <ul>
+        <li>La película está basada en la historia real de Sergio Juárez Correa, un maestro mexicano que aplicó nuevas técnicas educativas.</li>
+        <li>Fue reconocida en el Festival de Sundance y recibió elogios por su mensaje social.</li>
+        <li>El actor Eugenio Derbez recibió aplausos por su papel serio y conmovedor, diferente a sus comedias tradicionales.</li>
+    </ul>
+
+    <footer>
+        <p>&copy; Luis Antonio 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
