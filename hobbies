@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Hobbies</title>
+    <style>
+       body{background-color: #f8e9d4}
+       h1{color:#D2B59B}
+       h1{text-align: center;}
+       table{border: 2px solid black;
+       border-collapse: collapse;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="peliculafav.html">Película</a></li>
+            <li><a href="pinturafav.html">Pintura</a></li>
+            <li><a href="cancionfav.html">Canción</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mis Hobbies</h1>
+    <p>Estos son algunos de los pasatiempos que más disfruto en mi día a día.</p>
+
+    <table border="3">
+        <tr>
+            <th>Hobby</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>Escuchar corridos tumbados</td>
+            <td>Me gusta relajarme escuchando a artistas como Peso Pluma. Su estilo es único y representa una nueva era en la música regional mexicana.</td>
+        </tr>
+    </table>
+
+    <h2>Otras cosas que me gustan:</h2>
+    <ul>
+        <li>Ver entrevistas y conciertos de Peso Pluma.</li>
+        <li>Explorar más canciones del regional mexicano moderno.</li>
+        <li>Pasar tiempo con amigos escuchando música.</li>
+    </ul>
+
+    <footer>
+        <p>&copy; Luis Antonio 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
