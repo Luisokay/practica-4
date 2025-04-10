@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <title>Mi Canción Favorita</title>
+    <style>
+        body{background-color: rgb(224, 249, 220)}
+        table{text-align: center}
+        h1{color:#E809C3}
+        h1{text-align: center}
+        table{color:#E809C3}
+        table{ border: 2px solid black; 
+            border-collapse: collapse;} 
+    
+    </style>
+</head>
+ 
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="peliculafav.html">Película</a></li>
+            <li><a href="pinturafav.html">Pintura</a></li>
+            <li><a href="cancionfav.html">Canción</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mi Canción Favorita</h1>
+    <audio controls>
+        <source src="assets/audio/Ella Baila Sola.mp3" type="audio/mpeg">
+        El navegador no soporta el audio.
+    </audio>
+
+    <p>Una gran canción interpretada por Peso Pluma junto a Eslabón Armado. Esta colaboración se ha vuelto un himno moderno del regional mexicano y es una de mis favoritas por su estilo único.</p>
+
+    <table border="1">
+        <tr>
+            <th>Artista</th>
+            <th>Álbum</th>
+            <th>Género</th>
+        </tr>
+        <tr>
+            <td>Peso Pluma & Eslabón Armado</td>
+            <td>Desvelado</td>
+            <td>Regional Mexicano</td>
+        </tr>
+    </table>
+
+    <h2>Otras canciones recomendadas</h2>
+    <ul>
+        <li>AMG</li>
+    </ul>
+
+    <footer>
+        <p>&copy; luis Antonio 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
