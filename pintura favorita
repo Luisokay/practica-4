@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Pintura Favorita</title>
+    <style>
+        body{background-color: rgb(198, 192, 199)}
+        h1{color:rgb(50, 59, 63)}
+        img{text-align: center;}    
+        h1{text-align: left;}
+        table{border: 2px solid black;
+            border-collapse: collapse; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="peliculafav.html">Película</a></li>
+            <li><a href="pinturafav.html">Pintura</a></li>
+            <li><a href="cancionfav.html">Canción</a></li>
+        </ul>
+    </nav>
+
+    <h1>Mi Pintura Favorita</h1>
+    <img src="assets/imagen/lasdosfridas.jpg" alt="Las dos Fridas" width="400">
+
+    <p>*Las dos Fridas* es una de las obras más reconocidas de Frida Kahlo. Representa a dos versiones de la artista sentadas una junto a la otra, tomadas de la mano y conectadas por sus corazones. La pintura refleja el dolor emocional, la identidad dividida y la fuerza interior. Es un símbolo poderoso del arte mexicano y del papel de la mujer en la cultura y la historia.</p>
+
+    <table border="2">
+        <tr>
+            <th>Año</th>
+            <th>Artista</th>
+            <th>Estilo</th>
+        </tr>
+        <tr>
+            <td>1939</td>
+            <td>Frida Kahlo</td>
+            <td>Surrealismo / Arte Mexicano</td>
+        </tr>
+    </table>
+
+    <h2>Otras obras que me gustan</h2>
+    <ul>
+        <li>La columna rota</li>
+    </ul>
+
+    <h2>Imagen especial</h2>
+    <p>También admiro el impacto cultural actual de artistas como Peso Pluma:</p>
+    <img src="assets/imagen/pesopluma.jpg" alt="Peso Pluma" width="300">
+
+    <footer>
+        <p>&copy; Luis Antonio 2025 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
